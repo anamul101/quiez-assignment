@@ -2,11 +2,11 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 const QuizPage = () => {
-    const quizs = useLoaderData();
-    console.log(quizs)
+    const {data} = useLoaderData();
+    console.log(data)
     return (
         <div>
-            <h1>quiz</h1>
+           <h1>this is a quisens</h1>
         </div>
     );
 };
