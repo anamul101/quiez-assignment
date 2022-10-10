@@ -9,7 +9,8 @@ const Header = () => {
                 <Link to='/' className="btn btn-ghost normal-case text-xl">daisyUI</Link>
             </div>
             <div className="flex-none">
-                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/' className={({isActive})=>isActive?'font-semibold text-xl text-white mr-8':'font-semibold text-xl mr-8'}>Home</NavLink>
+                <NavLink to='/statistics' className={({isActive})=>isActive?'font-semibold text-xl text-white mr-8':'font-semibold text-xl mr-8'}>Statistics</NavLink>
             </div>
             
         </nav>
