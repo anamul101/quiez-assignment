@@ -6,6 +6,8 @@ import Home from './components/Home/Home';
 import Main from './Layout/Main';
 import Statistics from './components/Statistics/Statistics';
 import QuizPage from './components/QuizPage/QuizPage';
+import Blog from './components/Blog/Blog';
+import Topics from './components/Topics/Topics';
 
 
 
@@ -21,7 +23,7 @@ function App() {
           element:<Home></Home>
         },
         {
-          path:'home',
+          path:'/home',
           element:<Home></Home>
         },
         {
@@ -32,6 +34,10 @@ function App() {
         {
           path:'statistics',
           element:<Statistics></Statistics>
+        },
+        {
+          path:'blog',
+          element:<Blog></Blog>
         }
       ]
     }

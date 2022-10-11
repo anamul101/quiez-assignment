@@ -8,8 +8,10 @@ const QuizPage = () => {
     const {id,name,logo,total,questions}=data.data;
     return (
         <div>
-           <h1 className="text-2xl font-bold text-center mt-12">Quiz of {name}</h1>
-           <h1>questions: {questions.length}</h1>
+           <div className='mt-12'>
+                <h1 className="text-4xl font-bold text-center">Quiz of <span className='text-violet-800'>{name}</span></h1>
+                <h1 className="text-2xl font-semibold text-center mt-4">Total Questions: {total}</h1>
+           </div>
            <div>
                 {
                     questions.map(singlequiz => <SingleQuiz 
