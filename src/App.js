@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './components/Header/Header';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Main from './Layout/Main';
 import Statistics from './components/Statistics/Statistics';
 import QuizPage from './components/QuizPage/QuizPage';
 import Blog from './components/Blog/Blog';
-import Topics from './components/Topics/Topics';
+import ErrorPage404 from './components/ErrorPage404/ErrorPage404';
 
 
 
@@ -16,6 +15,7 @@ function App() {
     {
       path:'/',
       element:<Main></Main>,
+      errorElement:<ErrorPage404></ErrorPage404>,
       children:[
         {
           path:'/',
