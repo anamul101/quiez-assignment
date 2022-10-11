@@ -1,19 +1,10 @@
 import React from 'react';
 import Options from '../Options/Options';
 
+
 const SingleQuiz = ({singlequiz}) => {
     const {options,correctAnswer,question,id}=singlequiz;
-    const handelaAnsoewr=()=>{
-        let message;
-        if(correctAnswer){
-            message=alert(correctAnswer);
-        }
-        else if(!correctAnswer){
-            message=alert('worng');
-        }
-        
-        return message;
-    }
+    
     // console.log(singlequiz);
     return (
         <div className='bg-green-500 my-8 p-8 w-[70%] mx-auto'>
@@ -21,7 +12,11 @@ const SingleQuiz = ({singlequiz}) => {
             <div className=' grid grid-cols-2 gap-4 w-[90%] mx-auto p-4'>
                 
                 {
-                    options.map(qs=><Options qs={qs} handelaAnsoewr={handelaAnsoewr}></Options>)
+                    options.map((qs,idx)=><Options
+                     key={idx} 
+                     qs={qs} 
+                     correctAnswer={correctAnswer}
+                     ></Options>)
                 }
                 
             </div>
