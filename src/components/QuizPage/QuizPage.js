@@ -5,7 +5,7 @@ import SingleQuiz from '../SingleQuiz/SingleQuiz';
 const QuizPage = () => {
     const data = useLoaderData();
     // console.log(data)
-    const {id,name,logo,total,questions}=data.data;
+    const {name,total,questions}=data.data;
     return (
         <div>
            <div className='mt-12'>
