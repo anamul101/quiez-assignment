@@ -1,12 +1,25 @@
 # Site: Quiz Makers
-Free Online Develop Quizzes.
+Free Online Develop Quizzes Website.
 
-# Live site link: Please visit this Quiz Makers 
+# Live site visit this Quiz Makers 
 
-# How to created Quiz Makers Web Site:
+# What is the feature in Quiz Makers website :
 
-## . First Step
-I have a header on this site, there is a logo and 3 Navlinks in the header, Home, Statistics, and Blog
+## 1. Header section
+I have a header on this site, there is a logo and 3 Navlinks in the header Home, Statistics, and Blog. When you clicked on the link will take sprcific page.
+
+## 2. Home Page
+The header section on the home page is one of them.  title has a p tag and background image
+
+All quizzes have a section with 4 carts.  And there is a button click on button will take single quiz page.
+
+If you click on start Quiz button.  You can see all the quizzes there.  And it will show on the toast whether it is wrong or correct which will be clicked on the quiz options.  And there is an icon above the quiz, if you click on it, you will see the correct answer.
+
+## 3. Statistics Page
+If you click on the Statistics page, you will see a title and chart.  All quiz data is shown there.
+
+## 4. Blog Page
+If you click on the blog page, you will see the answer of 3 questions.
 
 # Getting Started with Create React App
 
