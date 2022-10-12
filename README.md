@@ -1,7 +1,7 @@
 # Site: Quiz Makers
 Free Online Develop Quizzes Website.
 
-## Live site visit this Quiz Makers:  https://github.com/facebook/create-react-app
+## Live site visit this Quiz Makers: https://grand-palmier-d59eab.netlify.app/
 
 # What is the feature in Quiz Makers website :
 
